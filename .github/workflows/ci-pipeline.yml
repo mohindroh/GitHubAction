@@ -11,7 +11,7 @@ on:
 jobs:
   test-and-lint:
     # use latest version of ubuntu as the runner environment
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     # steps in the job
     steps:
